@@ -1,0 +1,87 @@
+.container {
+  width: 1170px;
+  margin: auto;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 960px;
+    margin: auto;
+  }
+}
+
+body {
+  font-family: sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+.navbar {
+  padding: 8px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar__contacts {
+  margin-right: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: right;
+}
+
+.navbar__button {
+  padding: 18px 30px;
+  border-radius: 10px;
+  background-color: #ffd200;
+  border: 0;
+}
+
+.navbar__btn {
+  border: none;
+  color: #333333;
+  font-size: 13px;
+  font-weight: 400;
+  background-color: #ffd200;
+}
+
+.navbar__tel {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #333333;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 530px;
+    margin: auto;
+  }
+  .navbar__contacts {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */
