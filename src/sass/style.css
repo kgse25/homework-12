@@ -10,6 +10,13 @@
   }
 }
 
+@media (max-width: 960px) {
+  .container {
+    width: 690px;
+    margin: auto;
+  }
+}
+
 body {
   font-family: sans-serif;
 }
@@ -59,18 +66,22 @@ img {
   border: 0;
 }
 
+.navbar__button:hover {
+  cursor: pointer;
+}
+
 .navbar__btn {
   border: none;
   color: #333333;
   font-size: 13px;
-  font-weight: 400;
+  font-weight: 700;
   background-color: #ffd200;
 }
 
 .navbar__tel {
   margin-top: 10px;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 700;
   color: #333333;
   text-decoration: none;
 }
